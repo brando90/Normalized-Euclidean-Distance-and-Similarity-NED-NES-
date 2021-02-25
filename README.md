@@ -3,7 +3,7 @@
 An implementation of [Normalized Euclidean Distance/Similiarty](https://stats.stackexchange.com/questions/136232/definition-of-normalized-euclidean-distance)
 
 ```
-NED^2(u,v) = var(u-v) / var(u) + var(v) + eps
+NED^2(u,v) = 0.5 * var(u-v) / var(u) + var(v) + eps
 ```
 
 ## Citation
