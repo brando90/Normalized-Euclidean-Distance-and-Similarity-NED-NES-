@@ -7,7 +7,7 @@ NED(u,v) = var(u-v) / var(u) + var(v) + eps
 ```
 
 ## Citation
-If you find this implementation in your research consider citing:
+If you use this implementation in your research consider citing:
 
 ```
 @software{bm2021nesned,
