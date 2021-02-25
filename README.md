@@ -7,10 +7,10 @@ NED(u,v) = var(u-v) / var(u) + var(v) + eps
 ```
 
 ## Citation
-If you use this implementation in your research you can cite:
+If you find this implementation in your research consider citing:
 
 ```
-@software{brandomiranda2021nednes,
+@software{bm2021nesden,
     author={Brando Miranda},
     title={PyTorch implementation of Normalized Eucledia Similarity},
     url={https://github.com/brando90/Normalized-Eucledian-Distance-and-Similarity},
