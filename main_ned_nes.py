@@ -35,3 +35,24 @@ def ned_torch(x1: torch.Tensor, x2: torch.Tensor, dim=1, eps=1e-8) -> torch.Tens
 
 def nes_torch(x1, x2, dim=1, eps=1e-8):
     return 1 - ned_torch(x1, x2, dim, eps)
+
+def test_ned():
+    import torch.nn as nn
+
+    # dim = 1  # apply cosine accross the second dimension/feature dimension
+
+    k = 4  # number of examples
+    d = 8  # dimension of feature space
+    for d in range(1, d):
+        x1 = torch.randn(k, d)
+        x2 = x1 * 3
+        print(f'x1 = {x1.size()}')
+        ned_tensor = ned_torch(x1, x2)
+        print(ned_tensor)
+        print(ned_tensor.size())
+        #print(ned_torch(x1, x2, dim=dim))
+
+if __name__ == '__main__':
+    test_ned()
+    # test_tensorify()
+    print('Done\a')
