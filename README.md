@@ -10,7 +10,7 @@ NED^2(u,v) = var(u-v) / var(u) + var(v) + eps
 If you use this implementation in your research consider citing:
 
 ```
-@software{bm2021nesned,
+@software{brando2021nesned,
     author={Brando Miranda},
     title={PyTorch implementation of Normalized Euclidean Similarity},
     url={https://github.com/brando90/Normalized-Euclidean-Distance-and-Similarity},
