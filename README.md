@@ -1,6 +1,6 @@
 # Normalized-Eucledian-Distance-and-Similarity
 
-An implementation of (Normalized Eucledian Distance/Similiarty)[https://stats.stackexchange.com/questions/136232/definition-of-normalized-euclidean-distance]
+An implementation of [Normalized Eucledian Distance/Similiarty](https://stats.stackexchange.com/questions/136232/definition-of-normalized-euclidean-distance)
 
 ```
 NED(u,v) = var(u-v) / var(u) + var(v) + eps
