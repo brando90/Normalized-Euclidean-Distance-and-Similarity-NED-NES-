@@ -10,7 +10,7 @@ This function is very useful when used as a loss because it normalizes regressio
 The main advantage over R^2 is that it is symmetric and guranteed to be bounded between 0-1 but it is less interpretable (e.g. what does chance mean here? But R^2 has a clear meaning for that i.e. predicting the average labe)
 
 ## Citation
-If you use this implementation consider please citing us:
+If you use this implementation consider citing us:
 
 ```
 @software{brando2021ned,
